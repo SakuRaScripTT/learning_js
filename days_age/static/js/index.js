@@ -10,7 +10,7 @@ function ageDays(){
 	h1.setAttribute('id', 'ageDays');
 	h1.appendChild(answer);
 	//>>
-
+	
 	document.getElementById('flex-box-result').appendChild(h1);
 }
 

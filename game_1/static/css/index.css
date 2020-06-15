@@ -8,7 +8,7 @@
 .flex-box-rps {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .flex-box-rps img:hover {
@@ -17,4 +17,9 @@
 
 .buttons div{
 	padding: 5px;
+}
+
+.score {
+	display: flex;
+	justify-content: space-between;
 }

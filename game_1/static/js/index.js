@@ -2,10 +2,8 @@ var pScore = 0;
 var cScore = 0;
 function game_1(choice) {
 	 //>>
-	var computerChoice,myChoice;
-
-	myChoice = choice.id;
-	computerChoice = randomToInt();
+	var computerChoice = = randomToInt();
+	var myChoice = choice.id;
 	
 	//>>
 	computerChoice = ComputerChoice(computerChoice);

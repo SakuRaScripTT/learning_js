@@ -1,0 +1,15 @@
+
+.container {
+	border: 5px solid black;
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+
+.snake_canvas {
+	background-color: #3a3a3a;
+}
+
+.container h2{
+	padding: 20px;
+}

@@ -1,0 +1,32 @@
+.container {
+	border: 5px solid black;
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+
+.container h2{
+	padding: 20px;
+}
+
+.grid {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 600px;
+	margin: auto;
+}
+
+.grid img{
+	border: 3px solid black;
+}
+
+.info {
+	padding: 20px;
+}
+
+.records {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}

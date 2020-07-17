@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const user_m = (user_y * 12) + mesec - month;
 
         // racunamo bebjs
-        const max = GetDaysInMonth(month,year);
 
         let onemonth = 0;
         console.log('meseci ' + user_m);
@@ -51,36 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
         
-    function GetDaysInMonth(month, year) {
-        let days = 0;
-        switch (month) {
-            // meseci sa 31 dan
-            case 12:
-            case 10:
-            case 8:
-            case 7:
-            case 5:
-            case 3:
-            case 1:
-                days = 31;
-            break;
-            
-            // meseci sa 30 dana
-            case 11:
-            case 9:
-            case 6:
-            case 4: 
-                days = 30;
-            break;
-            // februar
-            case 2: {
-                if (leapyear(year)) days = 29;
-                else days = 28;
-            }
-        }
-        return days;
-    }
- 
     function leapyear(year) {
         if(year === 2000) return true;
         return ((year % 4 === 0) && (year % 100 !== 0));
